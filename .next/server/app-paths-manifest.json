@@ -1,0 +1,8 @@
+{
+  "/cabins/page": "app/cabins/page.js",
+  "/cabins/[cabinid]/page": "app/cabins/[cabinid]/page.js",
+  "/not-found": "app/not-found.js",
+  "/account/page": "app/account/page.js",
+  "/account/reservations/page": "app/account/reservations/page.js",
+  "/account/profile/page": "app/account/profile/page.js"
+}
