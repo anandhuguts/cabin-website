@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/bg.png";
-import LittleBoy from "./_components/Littleboy";
 
-export default function Page() {
+export default async function Page() {
+  await new Promise((resolve) => setTimeout(resolve, 5000)); // Simulate delay
   return (
     <main className="mt-24">
       <Image
